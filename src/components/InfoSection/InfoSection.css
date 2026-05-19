@@ -1,0 +1,149 @@
+.infoSect {
+  padding: 40px 80px;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.infoSect-title {
+  margin-bottom: 20px;
+  padding: 10px 0;
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.infoSect-wrapper {
+  display: flex;
+  width: 100%;
+  gap: 0;
+}
+
+.infoSect-image {
+  flex: 0 0 65%;
+}
+
+.infoSect-image img {
+  width: 100%;
+  height: 595px;
+  display: block;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.infoSect-card {
+  flex: 1 1 35%;
+  height: 595px;
+  background: #f2f2f2;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.infoSect-card-content {
+  padding: 40px;
+}
+
+.infoSect-card h3 {
+  margin: 0 0 16px 0;
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.infoSect-card p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+  text-align: left;
+  line-height: 1.6;
+}
+
+/* планшет */
+@media (max-width: 992px) {
+  .infoSect {
+    padding: 0 24px;
+  }
+
+  .infoSect-image img {
+    height: 420px;
+  }
+
+  .infoSect-card {
+    height: 420px;
+  }
+
+  .infoSect-card h3 {
+    font-size: 20px;
+  }
+
+  .infoSect-card-content {
+    padding: 30px;
+  }
+}
+
+/* телефон — блоки в колонку */
+@media (max-width: 768px) {
+  .infoSect {
+    padding: 0 16px;
+    margin-top: 48px;
+  }
+
+  .infoSect-wrapper {
+    flex-direction: column;
+  }
+
+  .infoSect-image {
+    flex: none;
+    width: 100%;
+  }
+
+  .infoSect-image img {
+    width: 100%;
+    height: 280px;
+    border-radius: 15px 15px 0 0;
+  }
+
+  .infoSect-card {
+    flex: none;
+    width: 100%;
+    height: auto;
+    border-radius: 0 0 15px 15px;
+  }
+
+  .infoSect-card-content {
+    padding: 24px;
+  }
+
+  .infoSect-card h3 {
+    font-size: 18px;
+  }
+
+  .infoSect-card p {
+    font-size: 13px;
+  }
+}
+
+/* маленький телефон */
+@media (max-width: 480px) {
+  .infoSect {
+    padding: 0 12px;
+    margin-top: 36px;
+  }
+
+  .infoSect-image img {
+    height: 220px;
+  }
+
+  .infoSect-card h3 {
+    font-size: 16px;
+  }
+
+  .infoSect-card-content {
+    padding: 20px;
+  }
+}
