@@ -1,15 +1,14 @@
 .ideasfor {
   padding: 40px 80px;
-  font-family: sans-serif;
   margin-left: 8%;
   margin-right: 8%;
   text-align: center;
 }
 
 .ideasfor__title {
-  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 24px;
+  text-transform: uppercase;
   line-height: 100%;
   text-transform: uppercase;
   text-align: center;

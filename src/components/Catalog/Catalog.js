@@ -12,7 +12,7 @@ function Catalog() {
 
   return (
     <section className="catalog" id='catalog'>
-      <h2>КАТАЛОГ</h2>
+      <p>КАТАЛОГ</p>
 
       <div className="catalog-grid">
         {products.map((item, index) => (

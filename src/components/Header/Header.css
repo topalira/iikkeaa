@@ -13,6 +13,8 @@
   display: flex;
   justify-content: center;
   gap: 77px;
+  font-size: 14px;
+  font-weight: 500;
   /* justify-content: space-around; */
 }
 
@@ -52,6 +54,15 @@
   gap: 25px;
   margin: 0;
   padding: 0;
+  font-size: 14px;
+}
+
+.menu-span{
+  font-size: 14px;
+}
+
+.hello{
+  font-size: 14px;
 }
 
 .search-input-wrapper {
@@ -91,12 +102,6 @@
 
 a {
   color: rgba(95, 95, 95, 1);
-}
-
-.burger>img {
-  width: 18px;
-  height: 12px;
-  margin-left: 11px;
 }
 
 .location,

@@ -6,6 +6,9 @@ import {
 } from "react-icons/fa";
 
 const Footer = () => {
+   const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
     <div className="footer">
 
@@ -71,7 +74,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <button className="scroll-top">↑</button>
+      <button className="scroll-top" onClick={scrollToTop}>↑</button>
 
       <div className="bottom">
         <span>Заголовок підрозділу</span>

@@ -23,19 +23,19 @@ export function Hero(props) {
 
     <div className="praducts">
       <Card
-        title="Подушки"
+        title="подушки"
         category="спальня кімната"
         price="12"
         imageUrl="Image1.png"
       />
       <Card
-        title="Ковдра"
+        title="ковдра"
         category="спальня кімната"
         price="30"
         imageUrl="Image2.png"
       />
       <Card
-        title="Ліжко"
+        title="ліжко"
         category="спальня кімната"
         price="414"
         imageUrl="Image3.png"

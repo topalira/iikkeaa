@@ -10,7 +10,7 @@ function Ideasfor() {
 
   return (
     <section className="ideasfor">
-      <h2 className="ideasfor__title">ідеї для оформлення</h2>
+      <p className="ideasfor__title">ідеї для оформлення</p>
 
       <div className="ideasfor__container">
         {ideasforItems.map((item, index) => (

@@ -31,13 +31,15 @@
 }
 
 .card2-title {
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 600;
   margin: 0;
+  text-transform: uppercase;
 }
 
 .card2-subtitle {
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: 400;
   color: #777;
   margin: 6px 0;
 }

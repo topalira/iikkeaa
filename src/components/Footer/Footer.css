@@ -6,7 +6,6 @@
   
 }
 
-/* колонки */
 .col {
   position: absolute;
   top: 67px;
@@ -87,6 +86,8 @@
   right: 220px;
   display: flex;
   justify-content: space-between;
+  font-size: 14px;
+  font-weight: 300;
 }
 
 /* мобайл блок скрыт на десктопе */

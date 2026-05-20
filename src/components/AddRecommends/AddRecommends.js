@@ -19,7 +19,7 @@ function AddRecommends() {
 
   return (
     <section className="addrecommends">
-      <h2 className="addrecommends-title">ДОДАТКОВІ РЕКОМЕНДАЦІЇ</h2>
+      <p className="addrecommends-title">додаткові рекомендації</p>
 
        <div className="addrecommends-tags">
         {topTags.map((tag, index) => (

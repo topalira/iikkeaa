@@ -3,7 +3,7 @@ import "./InfoSection.css";
 function InfoSection() {
   return (
     <section className="infoSect">
-      <h2 className="infoSect-title">ВАЖЛИВА ІНФОРМАЦІЯ</h2>
+      <p className="infoSect-title">важлива інформація</p>
 
       <div className="infoSect-wrapper">
         <div className="infoSect-image">
