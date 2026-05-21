@@ -69,7 +69,7 @@ function Products() {
     <section className="products_categorie">
       <h2 className="products__title">ТОВАРИ</h2>
       <Track data={products} />
-      <p className="products__p">Дивитися більше категорій +</p>
+      <p className="products__p">дивитися більше категорій +</p>
     </section>
   );
 }

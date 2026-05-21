@@ -10,7 +10,7 @@ export function DesignHero() {
   return (
     <section className="gesignhero">
       <p className="gesign_heading">
-        СТВОРИ ДИЗАЙН<br />СВОЄЇ МРІЇ
+        створи дизайн<br />своєї мрії
       </p>
 
       <div className="gesign_cards">
@@ -24,7 +24,7 @@ export function DesignHero() {
         ))}
       </div>
       <div className="designSection">
-        <h2>ВТІЛЮЙ СВОЇ ІДЕЇ</h2>
+        <h2>втілюй свої ідеї</h2>
         <p>
           Перетворюй свої думки у стильний та сучасний дизайн.
           Комбінуй ідеї, експериментуй з деталями та створюй

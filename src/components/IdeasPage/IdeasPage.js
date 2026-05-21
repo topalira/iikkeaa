@@ -11,7 +11,7 @@ export function IdeasPage() {
     <div className="IdeasPage" >
       <Ideadecor />
       <Interiorlayout />
-       <Rooms/>
+      <Rooms/>
       <IdeasCard />
       <Many />
       <Rooms/>

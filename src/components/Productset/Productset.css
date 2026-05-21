@@ -5,13 +5,15 @@
 }
 
 .productset__title {
-  font-size: 18px;
-  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 600;
   margin-bottom: 24px;
 }
 
 .productset__p {
   font-size: 14px;
+  font-weight: 400;
   margin-bottom: 20px;
 
 }
